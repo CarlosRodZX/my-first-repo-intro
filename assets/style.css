@@ -1,1 +1,242 @@
 /* Copy your CSS code from CodePen below this point */
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif !important;
+  background-color: Darkred;
+}
+
+
+/* Nav Starts Here */
+
+.nav-menu{
+  margin: 0 auto;
+  font-weight: bold;
+  padding: 5px 30px;
+}
+
+
+/* Nav Ends Here */
+
+
+.fibo-menu{
+  text-align: center;
+  margin: auto;
+  background-color: white;
+}
+
+
+
+.fibo-title{
+  color: red;
+  font-family: "Lucida Console", "Courier New", monospace; 
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+
+.about-us{
+  color: blue;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  
+}
+
+
+/* About Us Ends  */
+
+
+.paragraphs {
+  background-color: white;
+}
+
+
+.quarter-menu{
+  text-align: center;
+  color: white;
+  font: 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+
+
+.wraps{
+  text-align: center;
+  margin: auto;
+  color: darkblue;
+  font-family: Tahoma, sans-serif;
+  background-color: white;
+}
+
+
+
+.wraps-text{
+  color: chocolate;
+  font-size: 23px
+}
+
+
+.sides-menu{
+  text-align: center;
+  margin: auto;
+  color: chocolate;
+  font-family: Tahoma, sans-serif;
+  background-color: white;
+}
+
+
+
+.sides-text{
+  color: chocolate;
+  font-size: 23px;
+  color: darkblue;
+}
+
+.wraps,
+.sides-menu {
+  flex: 1;
+  margin-right: 10px;
+  display: flex;
+}
+
+.sides-menu {
+  border: 20px solid gray;
+  border-color: orange;
+  flex-direction: row;
+}
+
+
+/* Menus End Here */
+
+
+.favorites{
+  text-align: center;
+  margin: auto;
+  color: crimson;
+  background-color: white;
+}
+
+
+
+
+.location-hours{
+  text-align: center;
+  margin: auto;
+  color: darkred;
+  background-color: white;
+}
+
+
+
+p{
+  color: black;
+  font-family: Tahoma, sans-serif;
+}
+
+
+
+.address{
+  color: black;
+  font-size: 17px;
+}
+
+
+
+.day{
+  color: black;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+
+.background-img {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  background-image: url('https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV');
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat; 
+  padding: 20px; 
+  justify-content: flex-start; 
+  height: 50vh; 
+}
+
+
+
+.fibo-title {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 4em; 
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+.fibo-end{
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 19px;
+  color: white;
+  
+}
+
+
+
+ul {
+  list-style: none;
+  margin-right: 50px;
+}
+
+
+
+li {
+  padding: 4px;
+  margin-bottom: 10px;
+}
+
+
+
+.social-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+
+
+.logo-img{
+   width: 45px; 
+  height: 45px; 
+  margin-right: 15px;
+}
+  
+
+
+.food-pics{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+
+.food-img {
+  opacity: 1;
+  transition: opacity 0.8s ease;
+}
+
+
+.food-img{
+  width: 320px;
+  height: 250px;
+  margin: auto;
+}
